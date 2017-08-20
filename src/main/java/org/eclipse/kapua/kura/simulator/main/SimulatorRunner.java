@@ -158,8 +158,8 @@ public class SimulatorRunner {
 		final String proto = replace(env("KSIM_BROKER_PROTO", "tcp"));
 		final String user = replace(env("KSIM_BROKER_USER", "kapua-broker"));
 		final String password = replace(env("KSIM_BROKER_PASSWORD", "kapua-password"));
-		final String host = replace(env("KSIM_BROKER_HOST", "localhost"));
-		final String port = replace(env("KSIM_BROKER_PORT", "1883"));
+		final String host = replace(env("KSIM_BROKER_HOST", "sungura1-angani-ke-host.africastalking.com"));
+		final String port = replace(env("KSIM_BROKER_PORT", "1884"));
 
 		final StringBuilder sb = new StringBuilder(128);
 
